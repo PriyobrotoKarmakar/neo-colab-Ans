@@ -1,0 +1,14 @@
+Problem Statement
+You work in a large warehouse 
+where products are numbered from 0 to N-1. 
+Your task is to identify any products that appear 
+twice in the inventory list and report them in ascending order. 
+This helps ensure accurate inventory management.
+
+For instance, 
+if you have N = 4 products with IDs {0, 1, 3, 2}, and no duplicates exist, 
+you report -1. However, if you have N = 5 products with IDs {1, 1, 2, 2, 3}, 
+you must report the duplicates in ascending order: 1 2. This ensures your warehouse 
+maintains efficient inventory control. The input products must be listed in ascending order.
+
+Now design a program using recursion to solve the given problem statement.
