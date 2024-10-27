@@ -1,1 +1,1 @@
-![alt text](CSE 205/UNIT1/Lecture3(Array)/image2.png)
+<img alt="banner" align="center" src="image2.png">
