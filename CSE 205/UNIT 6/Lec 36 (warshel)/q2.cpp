@@ -12,7 +12,7 @@ bool hasChainOfConnections(int n, int connections[MAX_NODES][MAX_NODES], int sou
                     connections[i][j] = 1;
                 }
             }
-        }
+        }t
     }
     return connections[source][target] == 1;
 }
