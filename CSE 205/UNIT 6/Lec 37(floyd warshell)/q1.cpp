@@ -17,7 +17,7 @@ void initialise(int V, int graph[MAXN][MAXN]) {
             } else {
                 dis[i][j] = graph[i][j];
                 if (graph[i][j] != 0) {
-                    Next[i][j] = j;  // Direct edge exists, set next as destination
+                    Next[i][j] = j;  
                 }
             }
         }
@@ -31,7 +31,7 @@ void floydWarshall(int V) {
             for (int j = 0; j < V; j++) {
                 if (dis[i][j] > dis[i][k] + dis[k][j]) {
                     dis[i][j] = dis[i][k] + dis[k][j];
-                    Next[i][j] = Next[i][k];  // Update the next vertex in the path
+                    Next[i][j] = Next[i][k];
                 }
             }
         }
